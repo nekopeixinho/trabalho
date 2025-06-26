@@ -1,0 +1,69 @@
+body {
+color:rgb(63, 63, 63);
+background:dimgray;
+margin: 0px;
+font-family:"Libre Barkerville", sans-serif;
+}
+header{
+    border-bottom: solid 2px rgb(119, 119, 119);
+    padding: 20px;
+    font-size: 32px;
+    color:rgb(189, 189, 189);
+}
+
+.nsei{
+    background: rgb(189, 189, 189);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display:flex;
+    justify-content:center;
+}
+
+.texto1 {
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 10px;
+    border-bottom: solid 3px grey;
+    padding: 10px;
+    margin-left: 20px;
+}
+p{
+    font-size: 20px;
+    margin-top: -20px;
+    margin-left: 30px;
+
+}
+img {height:200px;
+}
+
+.videos {
+    display: flex;
+    overflow-x:auto;
+    gap:40px;
+}
+.sakuya {
+align-self: center;
+margin-right:30px;
+}
+.desc { text-align:center;
+    margin-bottom: 10px;
+    margin-right: 50px;
+
+}
+.musicas{padding-right: 20px;
+padding-left: 20px;
+}
+
+h2{ background-color: grey;}
+
+.videos img{opacity:0.5;
+
+}
+
+.videos img:hover{
+    opacity:1.0;
+    border:2px solid grey;
+}
